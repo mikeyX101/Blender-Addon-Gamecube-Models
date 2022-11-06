@@ -295,7 +295,8 @@ def add_jointanim_to_armature_total(joint, aobjdesc, action, pose):
             if aobjdesc.flags & hsd.AOBJ_ANIM_LOOP:
                 curve.modifiers.new('CYCLES')
         else:
-           #print('Unknown A Type: %.2X JOINT: %s' % (fobj.type, joint.temp_name))
+            #print('Unknown A Type: %.2X JOINT: %s' % (fobj.type, joint.temp_name))
+            pass
 
         fobj = fobj.next
 
